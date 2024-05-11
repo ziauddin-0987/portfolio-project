@@ -5,7 +5,7 @@
 
 .container {
   height: 200vw;
-  width: 100%;
+  width: 99.9%;
   background-color: chartreuse;
 }
 .section_A {
@@ -14,7 +14,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 30%;
+  height: 22%;
   width: 100%;
   background-color: rgb(39, 65, 149);
   z-index: 1;
@@ -42,6 +42,10 @@
 }
 
 /* nav section*/
+header{
+ display: flex;
+ align-items: center;
+}
 nav {
   position: absolute;
   width: 100%;
@@ -98,8 +102,7 @@ ul {
   left: 3.5rem;
   top: 13.5rem;
 }
-.section_center_text {
-}
+
 .text_box {
   font-weight: 900;
   font-size: 4rem;
@@ -143,3 +146,39 @@ button {
     display: none;
   }
 }
+/* section B start  */
+.section_in_box{
+  position:relative;
+  display:flex;
+  width:70%;
+  height:50rem;
+
+  
+}
+.section_B_in_top_box{
+  display: flex;
+  justify-content: center;
+}
+
+.img_1,
+.img_2,
+.img_3{
+  width: 97%;
+  height:34rem;
+  
+}
+
+.slider{
+  height:15rem;
+}
+
+.section_img_1{
+  position: absolute;
+  z-index: 60;
+}
+
+
+
+
+
+
