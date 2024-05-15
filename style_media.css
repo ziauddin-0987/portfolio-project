@@ -1,0 +1,125 @@
+@media screen and (max-width: 990px) {
+  ul {
+    display: none;
+  }
+  .sectionA {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 990px) {
+  .hum_barger_button {
+    display: none;
+  }
+}
+@media screen and (max-width: 990px) {
+  .section_A {
+    position: relative;
+    background-image: url(./img/home-new-bg-free-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 30%;
+    width: 100%;
+    background-color: rgb(25, 39, 85);
+    z-index: 1;
+  }
+  .text_box {
+    text-align: center;
+    font-size: 65px;
+  }
+  .section_center_text {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .section_center_text,
+  .descont_text {
+    text-align: center;
+    font-size: 60px;
+  }
+  .btn_box_in_section {
+    width: 80%;
+  }
+  .section_text_box {
+    width: 90%;
+  }
+  .find_button,
+  .shop_button {
+    margin: 15px;
+    width: 100%;
+    height: 3rem;
+  }
+  .btn_box_in_section {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .section_in_box {
+    /* width: 100%; */
+    /* display: block; */
+  }
+  .btn_box_in_section {
+    display: block;
+    /* margin: 15px; */
+  }
+  .find_button,
+  .shop_button {
+    margin: 15px;
+    width: 100%;
+    height: 3rem;
+  }
+
+  .section_A {
+    position: relative;
+    background-image: url(./img/home-new-bg-free-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70%;
+    width: 100%;
+    background-color: rgb(25, 39, 85);
+    z-index: 1;
+  }
+}
+@media screen and (max-width: 760px) {
+  .section_in_box {
+    width: 50%;
+  }
+
+  .btn_box_in_section {
+    display: block;
+  }
+  .find_button,
+  .shop_button {
+    margin: 15px;
+    width: 100%;
+    height: 3rem;
+  }
+  .section_text_box {
+  }
+  .section_center_text,
+  .descont_text {
+    text-align: center;
+  }
+  .btn_box_in_section {
+    width: 80%;
+  }
+  .section_text_box {
+    width: 90%;
+  }
+  .section_A {
+    position: relative;
+    background-image: url(./img/home-new-bg-free-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70%;
+    width: 100%;
+    background-color: rgb(25, 39, 85);
+    z-index: 1;
+  }
+}
+@media screen and (max-width: 500px) {
+}

@@ -133,19 +133,7 @@ button {
   background-color: white;
 }
 /* section a media responsive */
-@media screen and (max-width: 990px) {
-  ul {
-    display: none;
-  }
-  .sectionA {
-    width: 100%;
-  }
-}
-@media screen and (min-width: 990px) {
-  .hum_barger_button {
-    display: none;
-  }
-}
+
 /* section B start  */
 .section_in_box {
   position: relative;
@@ -196,14 +184,12 @@ button {
   position: absolute;
   z-index: 60;
 }
-/* on click in nav bar  on side bar */
-@media screen and (max-width: 970) {
-  nav {
-    position: absolute;
-    width: 40rem;
-    height: 50rem;
-    border: 1px solid black;
-    /* background-color: #146190; */
-    z-index: 999;
-  }
+.nav_new_list {
+  position: absolute;
+  width: 40rem;
+  height: 50rem;
+  border: 1px solid black;
+  background-color: #000000;
+  z-index: 999;
 }
+/* on click in nav bar  on side bar */
